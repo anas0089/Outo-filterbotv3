@@ -1639,10 +1639,9 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('🔍CHANNEL', url='https://t.me/Royalbotz'),
-            InlineKeyboardButton('Source Code', url ='https://github.com/HaseebRB/Outo-filterbotv3')
+            InlineKeyboardButton('🔍CHANNEL', url='https://t.me/M_H_G_R_O_U_P')
         ],[
-            InlineKeyboardButton('🗯 SUPPORT', url='https://t.me/tgbotschat')
+            InlineKeyboardButton('🗯 GROUP', url='https://t.me/joinchat/jUBjO5wZ8lM0NDQ1')
         ],[
             InlineKeyboardButton('💡HELP', callback_data="help")
         ]]
@@ -1661,8 +1660,6 @@ async def callback_data(bot, update: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Ⓜ️ MENU', callback_data='start'),
             InlineKeyboardButton('📕 ABOUT', callback_data='about')
-        ],[
-            InlineKeyboardButton('🗄 DEV', url='https://t.me/haseeb_tg')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1677,8 +1674,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Ⓜ️ MENU', callback_data='start'),
-            InlineKeyboardButton('🎥 STATUS', url='https://t.me/m4status')
+            InlineKeyboardButton('Ⓜ️ MENU', callback_data='start')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)

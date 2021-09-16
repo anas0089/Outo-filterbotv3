@@ -56,7 +56,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔍CHANNEL', url="https://t.me/Royalbotz"
+                                    '🔍CHANNEL', url="https://t.me/M_H_G_R_O_U_P"
                                 )
                         ]
                     ]
@@ -75,7 +75,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔍CHANNEL', url="https://t.me/Royalbotz"
+                                    '🔍CHANNEL', url="https://t.me/M_H_G_R_O_U_P"
                                 )
                         ]
                     ]
@@ -94,7 +94,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔍CHANNEL', url="https://t.me/Royalbotz"
+                                    '🔍CHANNEL', url="https://t.me/M_H_G_R_O_U_P"
                                 )
                         ]
                     ]
@@ -107,8 +107,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🔍CHANNEL', url='https://t.me/Royalbotz'),
-        InlineKeyboardButton('Source Code', url ='https://github.com/HaseebRB/Outo-filterbotv3')
+        InlineKeyboardButton('🔍CHANNEL', url='https://t.me/M_H_G_R_O_U_P')
     ],[
         InlineKeyboardButton('🗯 SUPPORT', url='https://t.me/tgbotschat')
     ],[

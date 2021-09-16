@@ -109,7 +109,7 @@ async def start(bot, update):
     buttons = [[
         InlineKeyboardButton('🔍CHANNEL', url='https://t.me/M_H_G_R_O_U_P')
     ],[
-        InlineKeyboardButton('🗯 SUPPORT', url='https://t.me/tgbotschat')
+        InlineKeyboardButton('🗯 GROUP', url='https://t.me/joinchat/jUBjO5wZ8lM0NDQ1')
     ],[
         InlineKeyboardButton('💡HELP', callback_data="help")
     ]]
